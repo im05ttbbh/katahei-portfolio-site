@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Katahei's Portfolio Site</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link href="css/reset.css" media="all" rel="stylesheet" type="text/css" />
+  <link rel="icon" href="favicon.ico">
+  <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+</head>
+<body>
+  <div class="wrapper">
+
+    <section class="first-view">
+      <div>
+        <span class="logo-name">Katahei’s</span>
+        <span class="logo-title">Portfolio</span>
+        <a class="view-btn" href="#about-section" role="button">Read More</a>
+      </div>
+      <img src="img/first-view.jpg">
+      <!-- <a href="https://pixabay.com/ja/users/enriquelopezgarre-3764790/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5146555">enriquelopezgarre</a>による<a href="https://pixabay.com/ja/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=5146555">Pixabay</a>からの画像 -->
+    </section>
+
+    <div id="cover"></div>
+
+    <section>
+      <!-- スマホ用スライドメニュー -->
+      <div id="menu">
+        <i class="fa fa-times" id="hide"></i>
+        <ul>
+          <li class="mobnavi-item">
+            <a class="gnav-link" href="#about-section">About me</a>
+          </li>
+          <li class="mobnavi-item">
+            <a class="gnav-link" href="#rails-section">Rails</a>
+          </li>
+          <li class="mobnavi-item">
+            <a class="gnav-link" href="#react-section">React</a>
+          </li>
+          <li class="mobnavi-item">
+            <a class="gnav-link" href="#other-section">Other</a>
+          </li>
+          <li class="mobnavi-item">
+            <a class="gnav-link" href="#study-section">Study</a>
+          </li>
+        </ul>
+      </div>
+      <!-- スマホ用スライドメニュー -->
+    
+      <nav class="gnav">      
+        <!-- PC用ナビゲーションバー -->
+        <ul class="gnav-list">
+          <li class="gnav-item"><a class="gnav-link" href="#about-section">About me</a></li>
+          <li class="gnav-item"><a class="gnav-link" href="#rails-section">Rails</a></li>
+          <li class="gnav-item"><a class="gnav-link" href="#react-section">React</a></li>
+          <li class="gnav-item"><a class="gnav-link" href="#other-section">Other</a></li>
+          <li class="gnav-item"><a class="gnav-link" href="#study-section">Study</a></li>
+        </ul>
+        <!-- PC用ナビゲーションバー -->
+
+        <!-- スマホ用ナビゲーションバー -->
+        <ul class="mobnavi-list">
+          <li class="mobnavi-item">Katahei’s Portforio</li>
+          <li class="mobnavi-item"><i class="fa fa-bars" id="show"></i></li>
+        </ul>
+        <!-- スマホ用ナビゲーションバー -->
+      </nav>
+    </section>
+
+    <main class="content">
+
+      <!-- About me -->
+      <section class="about-section section" id="about-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">About me</h2>
+          </div>
+          <div class="section-lead">
+            <p>初めまして。</p>
+          </div>
+          <div class="section-body about">
+            <div class="about-item">
+              <div class="about-image-wrapper">
+                <img class="about-image" src="img/profile/katahey.png">
+                <ul>
+                  <li>
+                    <a href="https://twitter.com/ryo0_heyhey" class="twitter" target="_blank">
+                    <i class="fab fa-twitter"></i> Twitter</a>
+                  </li>
+                  <li>
+                    <a href="https://github.com/im05ttbbh" class="github" target="_blank">
+                    <i class="fab fa-github"></i> GitHub</a>
+                  </li>
+                  <li>
+                    <a href="https://qiita.com/ryo0_heyhey" class="qiita" target="_blank">
+                    <i class="fas fa-search"></i> Qiita</a>
+                  </li>
+                  <li>
+                    <a href="mailto:kyatakawa1230@gmail.com" target="_blank">
+                    <i class="fas fa-envelope"></i> E-mail</a>
+                  </li>
+                  <li>
+                    <a href="https://connpass.com/user/im05ttbbh/" class="connpass" target="_blank">
+                    <i class="fas fa-user-graduate"></i> Connpass</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="about-body">
+                <div class="body-title"><i class="fas fa-user-circle"></i>自己紹介</div>
+                <ul>
+                  <li>　1992年12月生まれ / 27歳</li>
+                  <li>　育ちは神奈川県で、現在は岡山県に在住しております。</li>
+                </ul>
+                <div class="body-title"><i class="fas fa-hiking"></i>経歴</div>
+                <ul>
+                  <li>・2015年3月 : 中央大学 商学部 商業・貿易学科 卒業</li>
+                  <li>・2015年4月 : 内資系製薬企業 就職（MR職）</li>
+                  <div class="body-content">
+                    【日頃の取り組み】<br>
+                    現職での主な業務内容は医師をはじめとした医療従事者への医薬品情報の提供です。<br>
+                    昨今のITの進歩により、医薬品情報へのアクセスが格段にしやすくなり、インターネットで取れる基本的な医薬品情報では顧客ニーズに応えることが難しくなりました。<br>
+                    このような環境変化の中、論文を読み込んだり、月に1回社内で勉強会を主催したり、時には有給を活用して学会に足を運び、<span>積極的に最新の情報を仕入れていました。</span><br>
+                    その結果、顧客との中長期的な信頼関係の構築に繋がったこともあります。<br>
+                    <br>
+                    【成果】<br>
+                    2019年度新製品売上ランキング9/992位 営業所2/95位<br>
+                    2018年度市場大先で前年比500%達成<br>
+                    新製品プロモーター（情報発信業務メイン）として支店内最高評価<br>
+                    新製品プレゼンテーション大会最優秀賞獲得<br>
+                    <br>
+                    このような経験より、<span>率先した行動や周囲を巻き込んだ活動が成果に結びついた時、</span><br>
+                    仕事へのやりがいや充実感を覚えます。<br>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- About me -->
+
+      <!-- Railsアプリ紹介 -->
+      <section class="feature-section section" id="rails-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">Ruby on Rails</h2>
+          </div>
+          <p class="section-lead">
+            独学開始後初めて制作したアプリです。
+          </p>
+          <div class="section-body feature">
+            <div class="feature-item">
+              <div class="feature-image-wrapper">
+                <span>↓アプリへのリンク<br>
+                  （テストユーザーで簡単ログインができます）</span>
+                <a href="https://www.diynow-app.com/" target="_blank">
+                  <img class="feature-image" src="img/feature/firstview_diynow.png" alt="アプリリンク">
+                </a>
+                <span>↓アプリデモ</span>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/ypntLOYbSow" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="feature-body">
+                <div class="body-title"><i class="fas fa-gamepad"></i>アプリ概要・制作背景</div>
+                <ul>
+                  <li>作品名：DIYなう</li>
+                  <li>アプリ概要：住宅におけるDIYやリフォームの作品をコメント付きで投稿できるアプリです。</li>
+                  <li>
+                    作成背景：DIY好きの方々と接した際、仲間意識の強さを感じたことがあり、それぞれご自身のブログでアウトプットしている光景が印象的でした。
+                    そんな方々がSNS感覚で繋がれたらと思い、作成に取り掛かりました。
+                  </li>
+                </ul>
+                <div class="body-title"><i class="fas fa-code"></i></i>ソースコード</div>
+                <ul>
+                  <a href="https://github.com/im05ttbbh/diynow" class="github-src" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                  </a>
+                </ul>
+                <div class="body-title"><i class="fas fa-wrench"></i>使用技術等</div>
+                <ul>
+                  <li>・コメント機能付きCRUD実装</li>
+                  <li>・deviseを使用しメール認証機能を実装しました</li>
+                  <li>・画像投稿機能にはrefileを使用</li>
+                  <li>・AWSでデプロイ</li>
+                  <li>・いいね機能はajaxを用いております</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Railsアプリ紹介 -->
+
+      <!-- Reactアプリ紹介 -->
+      <section class="feature-section section" id="react-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">React</h2>
+          </div>
+          <p class="section-lead">
+            シンプルなTodoアプリです。
+          </p>
+          <div class="section-body feature">
+            <div class="feature-item">
+              <div class="feature-image-wrapper">
+                <span>↓アプリへのリンク<br>
+                  （テストユーザーで簡単ログインができます）</span>
+                <a href="https://react-tsumiage-app.web.app/" target="_blank">
+                  <img class="feature-image" src="img/feature/react-app.png" alt="アプリリンク">
+                  <!-- <a href="https://pixabay.com/ja/users/Alexandra_Koch-621802/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4166200">Alexandra_Koch</a>による<a href="https://pixabay.com/ja/?utm_source=link-attribution&amp;utm_medium=referral&amp;utm_campaign=image&amp;utm_content=4166200">Pixabay</a>からの画像 -->
+                </a>
+                <span>↓アプリデモ</span>
+                <iframe width="100%" height="315" src="https://www.youtube.com/embed/jZyvchh8LpI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              </div>
+              <div class="feature-body">
+                <div class="body-title"><i class="fas fa-gamepad"></i>アプリ概要・制作背景</div>
+                <ul>
+                  <li>作品名：#今日の積み上げ</li>
+                  <li>アプリ概要：Todoリストを作成し、Twitterにハッシュタグ付きで宣言できるアプリです。</li>
+                  <li>
+                    作成背景：作成の過程でReactの基礎を学びたかったことと、日々のTwitterでの学習宣言・報告をアプリからそのままツイートできるようにしたくなり、作成しました。
+                  </li>
+                </ul>
+                <div class="body-title"><i class="fas fa-code"></i></i>ソースコード</div>
+                <ul>
+                  <a href="https://github.com/im05ttbbh/react-tsumiage-app" class="github-src" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                  </a>
+                </ul>
+                <div class="body-title"><i class="fas fa-wrench"></i>使用技術等</div>
+                <ul>
+                  <li>・CRUD + Twitter投稿機能を実装</li>
+                  <li>・DBはFirebaseのCloudFirestoreを使用</li>
+                  <li>・認証はFirebaseのFirebase Authenticationを使用</li>
+                  <li>・スマホでも操作可能なようにUIを調整しております</li>
+                  <li>・Firebaseでデプロイ</li>
+                  <li>・今後はユーザーごとのリストになるように仕様変更予定</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Reactアプリ紹介 -->
+
+      <!-- ハッカソンアプリ紹介 -->
+      <section class="feature-section section" id="other-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">ハッカソンでの成果物</h2>
+          </div>
+          <p class="section-lead">
+            Rails上でReactを動作させてみました。
+          </p>
+          <div class="section-body feature">
+            <div class="feature-item">
+              <div class="feature-image-wrapper">
+                <span>↓アプリへのリンク</span>
+                <a href="https://glacial-thicket-48030.herokuapp.com/" target="_blank">
+                  <img class="feature-image" src="img/feature/react-on-rails.png" alt="アプリリンク">
+                </a>
+                <span>↓アプリデモ</span>
+                <iframe width="100%" height="315" style="margin-bottom: 80px;" src="https://www.youtube.com/embed/mg6rCR58dYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <span>↓LT資料</span>
+                <iframe src="img/feature/hakkason.pdf" width="100%" height="315"></iframe>
+              </div>
+              <div class="feature-body">
+                <div class="body-title"><i class="fas fa-gamepad"></i>アプリ概要・制作背景</div>
+                  <ul>
+                    <li>作品名：React on Rails</li>
+                    <li>アプリ概要：webpackerを用いてRails上でReactの動作まで実施し、過程をQiitaにアウトプット</li>
+                    <li>
+                      作成背景：GWでオンラインサロン上で開催された5日間のハッカソンに参加しました。これまでの学習を紐づけたかったことと、Material-UIをRails上でも表示をしてみたいという好奇心もあり、制作に取り掛かりました。
+                    </li>
+                  </ul>
+                <div class="body-title"><i class="fas fa-code"></i></i>ソースコード</div>
+                  <ul>
+                    <li class="hakkason-code">
+                      <a href="https://github.com/im05ttbbh/react-on-rails" class="github-src" target="_blank">
+                        <i class="fab fa-github"></i> GitHub（RailsとReactのCRUDテーブル）
+                      </a>
+                    </li>
+                    <li class="hakkason-code">
+                      <a href="https://github.com/im05ttbbh/qiita-react-rails" class="github-src" target="_blank">
+                        <i class="fab fa-github"></i> GitHub（Qiita記事のソースコード）
+                      </a>
+                    </li>
+                  </ul>
+                <div class="body-title"><i class="fas fa-wrench"></i>使用技術等</div>
+                  <ul>
+                    <li>・webpackerを用いたRails上でのReact使用</li>
+                    <li>・Qiita記事ではMaterial-UIをRails上で動作まで実施</li>
+                    <li>・人生初のLTも経験しました</li>
+                    <li>・今後RailsはAPIとしてReactと別々にアプリを作成予定</li>
+                  </ul>
+                <div class="qiita-image-wrapper">
+                  <span>↓Qiita投稿</span>
+                  <a href="https://qiita.com/ryo0_heyhey/items/c660225a5568e0ba8e7d" target="_blank">
+                    <img class="qiita-image" src="img/feature/qiita.png">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ハッカソンアプリ紹介 -->
+
+      <!-- Study紹介 -->
+      <section class="feature-section section" id="study-section">
+        <div class="inner">
+          <div class="section-heading">
+            <h2 class="heading-primary">学習継続</h2>
+          </div>
+          <p class="section-lead">
+            日々精進して参ります。
+          </p>
+          <div class="section-body feature">
+            <div class="feature-item" style="margin-bottom: 60px;">
+              <div class="feature-body">
+                <div class="body-title"><i class="fas fa-pencil-alt"></i>Twitterでの学習記録</div>
+                <ul>
+                  <li>2020年1月より、休むことなく学習記録を更新しております</li>
+                  <li>少しでも現場でお役に立てるよう、今後も学習を継続していきます</li>
+                </ul>
+              </div>
+            </div>
+            <div class="study-wrapper">
+              <a class="twitter-timeline" data-width="400" data-height="500" href="https://twitter.com/ryo0_heyhey?ref_src=twsrc%5Etfw">Tweets by ryo0_heyhey</a>
+              <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>          
+            </div>
+          </div>
+          <div class="connpass-body">
+            <div class="feature-item">
+              <div class="feature-body">
+                <div class="body-title"><i class="fas fa-pencil-alt"></i>もくもく会への積極参加</div>
+                <ul>
+                  <li>少人数から大人数の勉強会まで、参加させていただいておりました</li>
+                  <li>こちらも継続していきたいと考えております</li>
+                </ul>
+                <ul>
+                  <a href="https://connpass.com/user/im05ttbbh/" class="connpass-src" target="_blank">
+                    <i class="fas fa-user-graduate"></i> Connpassアカウント
+                  </a>
+                </ul>  
+              </div>
+            </div>
+            <div class="study-wrapper">
+              <img class="feature-image" src="img/feature/connpass.gif" width="400" height="500">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Study紹介 -->
+
+    </main>    
+  </div>
+  <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
